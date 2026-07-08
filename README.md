@@ -1,17 +1,157 @@
-# Dataset Information:
-The dataset consists of 303 rows and 14 columns with label Target. Data contains categorical as well as continuous data.
-# Data Cleansing: 
-There is only one column that contains null value in which only two rows have null value that can easily be dropped by removing NA function.
-# Data Visualization:
-Data Visualization is done by step by step process with critical analysis I use correlation matrix to find most dependent variable to the label which is Age. I plot graph of label (Target) to show the ratio of heart Disease.
-# Methodology: 
-To explain and identify the problem and resolve medical objectives, diﬀerent data Science technique, which interpret the medical goals, have been implemented to diagnose the heart disease and to improve the success standards of the algorithms for prediction. Suitable machine learning algorithms, like: Random Forest, SVM (Support Vector Machine), Decision Tree and Logistics Regression were preferred for the training and implementation in python for developing and evolving the predictive model. These algorithms executed on the model will help medical experts to predict and diagnose heart attacks in the patient dataset. The main goal is to identify which machine-learning algorithm has the best accuracy for the prediction of heart disease from the patient dataset.
-# Result:
-Cross Validation is also done for all the models. The results are same but have some variance in accuracy. After Cross Validation the result become clear that Logistic regression is good for this problem
+# ❤️ Heart Disease Prediction using Machine Learning
 
-# Installation Guide:
-->Install Anaconda Destribution <br>
-->Install Jupyter Notebook <br>
-->Copy Heart Health.ipynb to path C:\Users\xyz along with heart.csv <br>
-->Run Jupyter Notebook and open file from its home page <br>
-->Change the path of read_csv() as your file location <br>
+An end-to-end Machine Learning project that predicts the likelihood of heart disease using patient health records. The project applies data preprocessing, exploratory data analysis (EDA), feature engineering, and multiple machine learning algorithms to build an accurate prediction model.
+
+---
+
+## 📌 Project Overview
+
+Heart disease is one of the leading causes of death worldwide. Early prediction can help doctors provide timely treatment and reduce health risks.
+
+This project analyzes patient health data and predicts whether a patient is likely to have heart disease based on medical attributes.
+
+---
+
+## 🎯 Objectives
+
+- Perform data cleaning and preprocessing.
+- Explore the dataset using EDA.
+- Visualize important health trends.
+- Train multiple machine learning models.
+- Compare model performance.
+- Select the best model for prediction.
+
+---
+
+## 📂 Dataset
+
+**Dataset Name:** Heart Disease Dataset
+
+**Total Records:** 303
+
+**Total Features:** 14
+
+**Target Variable:** Heart Disease (0 = No Disease, 1 = Disease)
+
+### Features
+
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure
+- Cholesterol
+- Fasting Blood Sugar
+- Resting ECG
+- Maximum Heart Rate
+- Exercise Induced Angina
+- ST Depression
+- Slope
+- Number of Major Vessels
+- Thalassemia
+- Target
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📊 Exploratory Data Analysis
+
+Performed:
+
+- Data Inspection
+- Missing Value Analysis
+- Duplicate Detection
+- Correlation Analysis
+- Distribution Analysis
+- Feature Relationship Analysis
+- Target Variable Analysis
+
+Visualizations include:
+
+- Count Plots
+- Histograms
+- Box Plots
+- Correlation Heatmap
+- Pair Plot
+- Distribution Plot
+
+---
+
+## 🤖 Machine Learning Models
+
+The following algorithms were implemented and compared:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+
+---
+
+## 📈 Model Evaluation
+
+Performance evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Cross Validation
+
+The best-performing model was selected based on evaluation metrics.
+
+---
+
+## 📁 Project Structure
+
+```
+Heart-Disease-Prediction/
+│
+├── Heart Health.ipynb
+├── heart.csv
+├── README.md
+└── images/
+```
+
+
+## 📌 Results
+
+- Successfully analyzed patient health data.
+- Compared multiple machine learning algorithms.
+- Identified the best-performing classification model.
+- Built a reliable heart disease prediction system.
+
+---
+
+## 🔮 Future Improvements
+
+- Develop a Streamlit Web Application
+- Deploy on Streamlit Cloud
+- Add Explainable AI (SHAP)
+- Add Patient Report Generation
+- Improve model accuracy using Hyperparameter Tuning
+
+---
+
+## 👨‍💻 Author
+
+**Indesh Prajapati**
+
+B.Tech Computer Science & Engineering
+
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+LinkedIn: https://linkedin.com/in/yourprofile
+
+---
