@@ -152,6 +152,6 @@ B.Tech Computer Science & Engineering
 
 Aspiring Data Analyst | Machine Learning Enthusiast
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn:https://www.linkedin.com/in/indesh-prajapati-7043092b5/
 
 ---
