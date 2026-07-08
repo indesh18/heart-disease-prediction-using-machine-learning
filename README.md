@@ -119,7 +119,6 @@ Heart-Disease-Prediction/
 ├── Heart Health.ipynb
 ├── heart.csv
 ├── README.md
-└── images/
 ```
 
 
