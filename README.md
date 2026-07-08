@@ -47,8 +47,6 @@ This project analyzes patient health data and predicts whether a patient is like
 - ST Depression
 - Slope
 - Number of Major Vessels
-- Thalassemia
-- Target
 
 ---
 
